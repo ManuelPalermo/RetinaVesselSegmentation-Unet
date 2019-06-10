@@ -1,2 +1,2 @@
 # RetinaVaseSegmentation-Unet
-Attention-Unet for segmentation of retinal vases
+The code can be run on Kaggle servers: https://www.kaggle.com/mpalermo/attention-unet-retina-vase-segmentation
