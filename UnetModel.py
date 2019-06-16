@@ -73,7 +73,7 @@ class Unet:
             return 1 - dice_coef(y_true, y_pred)
 
         inputs = Input(input_size)
-        # encoder
+        
         d1 = Conv2D(32, 3, activation='relu', padding='same')(inputs)
         d1 = BatchNormalization()(d1)
         d1 = Conv2D(32, 3, activation='relu', padding='same')(d1)
